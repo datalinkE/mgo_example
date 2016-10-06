@@ -1,0 +1,9 @@
+datalink@yoga:~/gopath/src/sketch$ mongo
+MongoDB shell version: 2.6.10
+connecting to: test
+> use mgo_example
+switched to db mgo_example
+> db.foo.insert({"name": "bar"})
+WriteResult({ "nInserted" : 1 })
+> 
+
